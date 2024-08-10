@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.collapse{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar1{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*
+ main section*/
+ .amna img{
+   height: 450px;
+   width: 450px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 2px solid #000;
+   position: relative;
+   z-index: 2;
+   display: inline-flexbox;
+   margin-left: 500px;
+   margin-top: -400px;
+ }
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+ }
+ .navbar{
+    background-color: whitesmoke;
+ }
+ .main h4{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 40%;
+ }
+ .about img{
+    -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+ }
+ h1{
+    font-size: 3rem;
+    font-weight: 900;
+
+ }
+ .progress{
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+    webkit-box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.75);
+box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.75);
+ }
+ .pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+ }
+ .progress p{
+    color: white;
+    padding: 12px;
+ }
+ .pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+ }
+ .pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+ }
+ .row1 img{
+   height: 300px;
+ }
+ .pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 40px;
+    width: 0;
+ }
+ @keyframes load1 {
+    0%{
+       width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+ }
+ @keyframes load2 {
+    0%{
+       width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+ }
+ @keyframes load3 {
+    0%{
+       width: 0;
+    }
+    100%{
+        width: 58%;
+    }
+ }
+ @keyframes load4 {
+    0%{
+       width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+.about img{
+    height: 500px;
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.main .btn2{
+    height: 55px;
+    width: 138px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.main .btn3{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: blue;
+    outline: none;
+    border: 1px solid blue;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.main .btn2:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.main .btn3:hover{
+    background-color: rgba(13, 68, 218, 0.541);
+    transition: 0.5s;
+    color: white;
+}
+.pic img{
+   height: 400px;
+   width: 70%;
+}
+.row img{
+   display: flex;
+}
+.ayat img{
+   height: 200px;
+}
+.eman{
+   margin: 100px;
+}
+.ayat2 img{
+   height: 200px;
+   width: 90%;
+}
+.ayat3 img{
+   width: 90%;
+}
+.ayat4 img{
+   width: 85%;
+   height: 200px;
+}
+.work{
+   margin-left: 150px;
+}
+.ahad{
+   margin-left: 100px;
+}
+.a{
+   margin-left: 100px;
+}
+.b{
+   margin-left: 150px;
+}
+.c{
+   text-align: center;
+   margin-left: 300px;
+}
+.d{
+   margin-left: 250px;
+}
